@@ -1,0 +1,38 @@
+{
+  "message": "success", 
+  "number": 8, 
+  "people": [
+    {
+      "craft": "ISS", 
+      "name": "Anatoly Ivanishin"
+    }, 
+    {
+      "craft": "ISS", 
+      "name": "Takuya Onishi"
+    }, 
+    {
+      "craft": "ISS", 
+      "name": "Kate Rubins"
+    }, 
+    {
+      "craft": "Shenzhou 11", 
+      "name": "Jing Haipeng"
+    }, 
+    {
+      "craft": "Shenzhou 11", 
+      "name": "Chen Dong"
+    }, 
+    {
+      "craft": "ISS", 
+      "name": "Sergey Rizhikov"
+    }, 
+    {
+      "craft": "ISS", 
+      "name": "Andrey Borisenko"
+    }, 
+    {
+      "craft": "ISS", 
+      "name": "Shane Kimbrough"
+    }
+  ]
+}

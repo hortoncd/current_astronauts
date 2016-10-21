@@ -1,0 +1,10 @@
+Name              | Craft       
+------------------|-------------
+Anatoly Ivanishin | ISS         
+Takuya Onishi     | ISS         
+Kate Rubins       | ISS         
+Jing Haipeng      | Shenzhou 11 
+Chen Dong         | Shenzhou 11 
+Sergey Rizhikov   | ISS         
+Andrey Borisenko  | ISS         
+Shane Kimbrough   | ISS         
