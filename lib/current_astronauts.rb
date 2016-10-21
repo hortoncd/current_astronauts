@@ -1,6 +1,6 @@
 require 'current_astronauts/version'
 
-require 'HTTParty'
+require 'httparty'
 
 module CurrentAstronauts
   class Astronauts
