@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Chris Horton"]
   spec.email         = ["hortoncd@gmail.com"]
 
-  spec.summary       = %q{Work worth list of astronauts currently in space}
-  spec.description   = %q{Work worth list of astronauts currently in space.  Raw JSON data is available, along with a few methods for accessing specific portions of the data and print out a formatted list.}
+  spec.summary       = %q{Small gem to work with list of astronauts currently in space}
+  spec.description   = %q{Small gem to work with list of astronauts currently in space.  Raw JSON data is available, along with a few methods for accessing specific portions of the data and print out a formatted list.}
   spec.homepage      = "https://github.com/hortoncd/current_astronauts"
   spec.license       = "MIT"
 
