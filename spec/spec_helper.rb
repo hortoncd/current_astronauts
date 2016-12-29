@@ -104,7 +104,7 @@ end
 
 require 'simplecov'
 SimpleCov.profiles.define 'no_vendor_coverage' do
-    add_filter 'vendor' # Don't include vendored stuff
+  add_filter 'vendor' # Don't include vendored stuff
 end
 
 # save to CircleCI's artifacts directory if we're on CircleCI
