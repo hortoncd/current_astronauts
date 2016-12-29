@@ -102,6 +102,22 @@ RSpec.configure do |config|
 =end
 end
 
+require 'simplecov'
+SimpleCov.profiles.define 'no_vendor_coverage' do
+  add_filter 'vendor' # Don't include vendored stuff
+end
+
+# save to CircleCI's artifacts directory if we're on CircleCI
+if ENV['CIRCLE_ARTIFACTS']
+  dir = File.join(ENV['CIRCLE_ARTIFACTS'], "coverage")
+  SimpleCov.coverage_dir(dir)
+end
+
+SimpleCov.start 'no_vendor_coverage'
+
+$LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
+require 'current_astronauts'
+
 # Mock API call(s)
 require 'webmock/rspec'
 WebMock.disable_net_connect!(:allow_localhost => true)
