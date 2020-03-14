@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/hortoncd/current_astronauts.svg?style=svg)](https://circleci.com/gh/hortoncd/current_astronauts)
-
 # CurrentAstronauts
+
+![](https://github.com/hortoncd/current_astronauts/workflows/Ruby/badge.svg)
 
 Small gem to work with the list of current astronauts in space from http://api.open-notify.org/astros.json.
 
